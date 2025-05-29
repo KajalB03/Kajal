@@ -2,9 +2,9 @@
 
 👋 Welcome to my personal portfolio website! This site showcases my academic journey, technical skills, and hands-on projects in data science and analytics.
 
-🔗 **Live Site**: [Github](https://github.com/KajalB03/Kajal.git)  
+🔗 **Live Site**: [Github](https://kajalb03.github.io/Kajal/)  
 ✉️ Contact: kajal.bhadauria@ucalgary.ca  
-🔗 [LinkedIn](https://linkedin.com/in/kajal-r-bhadauria/) | [GitHub](https://github.com/KajalB03/Kajal.git)
+🔗 [LinkedIn](https://linkedin.com/in/kajal-r-bhadauria/) | [GitHub](https://kajalb03.github.io/Kajal/)
 
 ---
 
