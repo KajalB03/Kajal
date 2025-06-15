@@ -1,92 +1,153 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Kajal Bhadauria | Data Science Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css">
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f7f9;
-      color: #333;
-    }
-    .container {
-      max-width: 900px;
-      margin: 40px auto;
-      background-color: #fff;
-      padding: 40px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    .hero-section {
-      background: url('assets/your-photo.jpg') center/cover no-repeat;
-      padding: 100px 0;
-      text-align: center;
-      color: white;
-    }
-    .hero-overlay {
-      background-color: rgba(0, 0, 0, 0.5);
-      display: inline-block;
-      padding: 30px 50px;
-      border-radius: 10px;
-    }
-    h1, h2, h3 {
-      color: #1a237e;
-    }
-    a {
-      color: #1565c0;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    ul {
-      padding-left: 20px;
-    }
-  </style>
-</head>
-<body>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Kajal Bhadauria | Data Science Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="landing is-preload">
+		<div id="page-wrapper">
 
-  <!-- 🔹 ABOUT ME HERO SECTION -->
-  <div class="hero-section">
-    <div class="hero-overlay">
-      <h1>👋 Hi, I'm Kajal Bhadauria</h1>
-      <p>
-        Data Science & Analytics student at the University of Calgary. I love solving real-world problems with data — from exploring public sentiment to predicting academic outcomes.
-      </p>
-    </div>
-  </div>
+			<!-- Header -->
+			<header id="header" class="alt">
+				<h1><a href="index.html">Kajal Bhadauria</a></h1>
+				<nav id="nav">
+					<ul>
+						<li class="special">
+							<a href="#menu" class="menuToggle"><span>Menu</span></a>
+							<div id="menu">
+								<ul>
+									<li><a href="#banner">Home</a></li>
+									<li><a href="#one">About Me</a></li>
+									<li><a href="#two">Projects</a></li>
+									<li><a href="#three">Skills</a></li>
+									<li><a href="#footer">Contact</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</nav>
+			</header>
 
-  <!-- 🔹 MAIN CONTENT -->
-  <div class="container">
-    <p>
-      📧 <a href="mailto:kajal.bhadauria@ucalgary.ca">kajal.bhadauria@ucalgary.ca</a> |
-      💼 <a href="https://linkedin.com/in/kajal-r-bhadauria" target="_blank">LinkedIn</a> |
-      💻 <a href="https://github.com/kajalb03" target="_blank">GitHub</a> |
-      📄 <a href="assets/Kajal_Bhadauria_MDSA.pdf" target="_blank">Resume (PDF)</a>
-    </p>
+			<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+					<h2>Kajal Bhadauria</h2>
+					<p>Master's student in Data Science and Analytics at University of Calgary<br />
+					Skilled in Python, R, SQL, Data Visualization, and Machine Learning</p>
+					<ul class="actions special">
+						<li><a href="#two" class="button primary">View My Work</a></li>
+					</ul>
+				</div>
+				<a href="#one" class="more scrolly">Learn More</a>
+			</section>
 
-    <hr>
+			<!-- About -->
+			<section id="one" class="wrapper style1 special">
+				<div class="inner">
+					<header class="major">
+						<h2>About Me</h2>
+						<p>I am a Master of Data Science and Analytics student at the University of Calgary. I bring a background in technical support and project coordination, and I am passionate about solving real-world problems using data. My skill set includes Python, R, SQL, data wrangling, and data visualization using tools like Tableau, Seaborn, and Matplotlib.</p>
+					</header>
+					<ul class="icons major">
+						<li><span class="icon fa-gem major style1"><span class="label">Analytical</span></span></li>
+						<li><span class="icon fa-heart major style2"><span class="label">Curious</span></span></li>
+						<li><span class="icon solid fa-code major style3"><span class="label">Technical</span></span></li>
+					</ul>
+				</div>
+			</section>
 
-    <!-- 🔹 PROJECTS SECTION -->
-    <h2>📂 Featured Projects</h2>
-    <ul>
-      <li>
-        <a href="projects/labubu.html" target="_blank">
-          Public Opinion on Labubu Dolls — Sentiment & Topic Analysis
-        </a>
-      </li>
-      <li>
-        <a href="projects/student-dropout.html" target="_blank">
-          Understanding Student Dropout & Academic Success Patterns
-        </a>
-      </li>
-    </ul>
+			<!-- Projects -->
+			<section id="two" class="wrapper alt style2">
+				<section class="spotlight">
+					<div class="image"><img src="images/Project1.jpg" alt="" /></div>
+					<div class="content">
+						<h2>Economic Shifts in Calgary</h2>
+						<p>Analyzed unemployment, wages, and retail data across Calgary, Alberta, and Canada using Python. Assessed the pandemic's impact and industry-specific recovery trends.</p>
+					</div>
+				</section>
+				<section class="spotlight">
+					<div class="image"><img src="images/Project2.jpeg" alt="" /></div>
+					<div class="content">
+						<h2>Statistical Inference in a Cocaine Drug Bust</h2>
+						<p>Used R and probability theory to assess evidence validity in a real-life trial, applying hypothesis testing for data-based judicial analysis.</p>
+					</div>
+				</section>
+				<section class="spotlight">
+					<div class="image"><img src="images/Project3.jpeg" alt="" /></div>
+					<div class="content">
+						<h2>CO₂ Emissions Modeling in Canada</h2>
+						<p>Built multiple linear regression models to identify predictors of vehicle CO₂ emissions including fuel use, engine size, and weight.</p>
+					</div>
+				</section>
+				<section class="spotlight">
+					<div class="image"><img src="images/Project4.jpeg" alt="" /></div>
+					<div class="content">
+						<h2>Oil Prices and Stock Market Trends</h2>
+						<p>Created a MySQL database integrating 12+ datasets including GDP, inflation, oil prices, and stock data. Delivered insights through visualization and analysis of Canadian energy stocks.</p>
+					</div>
+				</section>
+			</section>
 
-    <p>More projects and dashboards coming soon — stay tuned!</p>
-  </div>
-</body>
+			<!-- Skills -->
+			<section id="three" class="wrapper style3 special">
+				<div class="inner">
+					<header class="major">
+						<h2>Skills and Tools</h2>
+						<p>Combining technical expertise with business acumen to deliver data-driven solutions</p>
+					</header>
+					<ul class="features">
+						<li class="icon fa-code">
+							<h3>Languages</h3>
+							<p>Python, R, SQL, JavaScript, HTML, CSS</p>
+						</li>
+						<li class="icon solid fa-database">
+							<h3>Data Tools</h3>
+							<p>Pandas, NumPy, Matplotlib, Seaborn, MySQL, RStudio</p>
+						</li>
+						<li class="icon solid fa-chart-bar">
+							<h3>Visualization</h3>
+							<p>Tableau, Excel, Seaborn, Matplotlib</p>
+						</li>
+						<li class="icon solid fa-tools">
+							<h3>Technologies</h3>
+							<p>Git, Jira, Confluence, Salesforce, Zendesk</p>
+						</li>
+						<li class="icon solid fa-user-friends">
+							<h3>Project Support</h3>
+							<p>Project coordination, stakeholder reporting, documentation, and cross-functional collaboration</p>
+						</li>
+						<li class="icon fa-flag">
+							<h3>Soft Skills</h3>
+							<p>Problem solving, analytical thinking, client communication, teamwork</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="https://github.com/KajalB03/Kajal.git" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="https://linkedin.com/in/kajal-r-bhadauria/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a href="mailto:kajal.bhadauria@ucalgary.ca" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; 2025 Kajal Bhadauria</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</footer>
+
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
 </html>
